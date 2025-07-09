@@ -8,6 +8,7 @@ class Program
     {
         Console.WriteLine("to detect whether number is even or odd");
         Console.WriteLine(" ______________________________________________");
+        
         Console.Write("| please provide the number you want to verify |: ");
         
         int number = Convert.ToInt32 (Console.ReadLine ( ));
