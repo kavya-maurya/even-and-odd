@@ -20,10 +20,10 @@ jobs:
         dotnet-version: '9.0.x'
 
     - name: Restore dependencies
-      run: dotnet restore ./MyProject/MyProject.csproj
+      run: dotnet restore 
 
     - name: Build project
-      run: dotnet build ./MyProject/MyProject.csproj --no-restore
+      run: dotnet build 
 
     - name: Run project
-      run: dotnet run --project ./MyProject/MyProject.csproj
+      run: dotnet run 
